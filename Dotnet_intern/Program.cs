@@ -8,17 +8,17 @@ class Program
         var x = int.Parse(Console.ReadLine());
         Console.Write("y:");
         var y = int.Parse(Console.ReadLine());
-        Console.Write("operation:");
-        var operation  = (Console.ReadLine());
+        // Console.Write("operation:");
+        // var operation  = (Console.ReadLine());
 
-        if (operation == "+")
+        if (x<y)
         {
             Console.WriteLine(x+y);
         }
         else
         {
-            Console.WriteLine( x- y);
+            Console.WriteLine( x-y);
         }    
     }
-    
+     
 }
